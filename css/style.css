@@ -55,6 +55,38 @@ h3 {
 /* MD */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     
+    h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        padding: 0 7%;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    #lesson {
+        margin-top: 0;
+    }
+
+    #how {
+        margin: 20px 0;
+    }
+
+    #why img {
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    #why .container {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 /* XS */
 @media screen and (max-width: 767px) {
@@ -69,12 +101,10 @@ h3 {
         padding-top: 10px;
         font-size: 40px;
     }
-
     h3 {
         margin: 0;
         font-size: 24px;
     }
-
     p {
         padding: 0 7%;
         margin-bottom: 20px;
