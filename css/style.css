@@ -23,16 +23,8 @@ h2 {
     font-size: 2em;
     margin: 1em 0;
 }
-
 h3 {
     margin: 1em 0;
-}
-
-#why img {
-    height: 260px;
-    background-color: #428bca;
-    border-radius: 50%;
-    padding: 30px
 }
 
 .gray {
@@ -47,7 +39,80 @@ h3 {
     margin: 100px 0;
 }
 
+#why img {
+    height: 260px;
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px
+}
+
 #why .container {
     margin-top: 80px;
     margin-bottom: 10px;
+}
+
+/* responsive */
+/* MD */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+/* XS */
+@media screen and (max-width: 767px) {
+
+    img {
+        height: 140px;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+
+    h3 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    p {
+        padding: 0 7%;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+    #lesson,
+    #why {
+        background-color: #f2f2cd;
+    }
+
+    #how {
+        background-color: white;
+    }
+
+    #lesson {
+        margin-top: 0;
+    }
+
+    #how {
+        margin: 0 0;
+    }
+
+    #why .container {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #why img {
+        height: 140px;
+        margin-top: 20px;
+    }
+
+    #why h2 {
+        margin-bottom: 0;
+    }
+
+    #why p {
+        margin-bottom: 0;
+    }
 }
